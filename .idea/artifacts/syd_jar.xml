@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="syd:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/syd_jar</output-path>
+    <root id="archive" name="syd.jar">
+      <element id="module-output" name="syd" />
+    </root>
+  </artifact>
+</component>

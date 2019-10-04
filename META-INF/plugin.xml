@@ -1,0 +1,38 @@
+<idea-plugin>
+
+  <version>2.1</version>
+  <name>SydFormat</name>
+  <description>
+    <![CDATA[
+          <html>quickly to convert a JSON string to an InnerClassEntity class ..<br>
+          <a href="https://github.com/liuzhao1006/SydFormat">openSource</a>
+      </html>
+    ]]></description>
+
+  <vendor email="997530783@qq.com" url="http://www.sydauto.com">Liu</vendor>
+
+
+  <change-notes><![CDATA[
+      <p>
+      2.1
+        <ul>
+        <li>New: Support for autovalue</li>
+        <li>New: Support for lombok</li>
+        <li>New: Support for split generate class</li>
+        </ul>
+
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="173.0"/>
+
+  <extensions defaultExtensionNs="com.intellij"/>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="SydFormat" class="com.sydauto.Syd" text="Syd" >
+      <add-to-group group-id="GenerateGroup" anchor="last"/>
+    </action>
+  </actions>
+
+</idea-plugin>
